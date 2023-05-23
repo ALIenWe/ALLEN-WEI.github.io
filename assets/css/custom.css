@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
 * {
   padding: 0;
@@ -134,7 +133,7 @@
 
 #Main_page .square_container .lifestyle {
   position: absolute;
-  bottom: 37%;
+  bottom: 30%;
 }
 
 #Main_page .square_container .lifestyle h2 {
@@ -266,105 +265,12 @@
   display: initial;
 }
 
-/* #timeline .wrap_container .timeline_area {
-  display: flex;
-  flex-wrap: wrap;
+@media(max-width:1200px) {
+  #timeline .tab_content .tab_item+.tab_item {
+    margin-top: 30px;
+  }
 }
 
-#timeline .wrap_container .timeline_area li {
-  flex: 0 0 calc(100%/2);
-  box-sizing: border-box;
-  position: relative;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(odd) {
-  padding-right: 100px;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(odd)::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 2px;
-  height: 100%;
-  background: #ccc;
-  right: 0;
-  top: 0;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(odd)::after,
-#timeline .wrap_container .timeline_area li:nth-child(even)::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  background: #ccc;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(odd)::after {
-  right: -1.4%;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(even)::after {
-  left: -1.7%;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(even) {
-  transform: translateY(50%);
-  padding-left: 100px;
-
-}
-
-#timeline .wrap_container .timeline_area a {
-  text-decoration: none;
-  border: 1px solid;
-  padding: 10px 15px;
-  display: block;
-  transition: all .3s;
-  color: #666;
-  border-radius: 20px;
-  box-shadow: 3px 3px 5px #888;
-  margin: 50px 0;
-}
-
-#timeline .wrap_container .timeline_area a:hover {
-  background-color: #198754;
-  color: #fff;
-  border: 1px solid #198754;
-}
-
-#timeline .wrap_container .timeline_area li h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#timeline .wrap_container .timeline_area li h2::after {
-  content: '';
-  position: absolute;
-  width: 20%;
-  height: 1px;
-  background: #ccc;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(odd) h2::after {
-  right: 0;
-}
-
-#timeline .wrap_container .timeline_area li:nth-child(even) h2::after {
-  left: 0;
-}
-
-#timeline .wrap_container .timeline_area li p {
-  font-size: 16px;
-} */
 
 /* 作品集 */
 #Pratice_area {

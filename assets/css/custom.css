@@ -350,7 +350,7 @@
   }
 }
 
-/* 研討會 / 論文 */
-# Paper .describe h3{
-  
+/* 頁底 */
+#myfooter input:hover {
+  border-color: #198754;
 }
